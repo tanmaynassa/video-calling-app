@@ -1,0 +1,9 @@
+.continue{
+    text-align: center;
+}
+.main{
+    background-image: url("image_login.png");
+    min-height: 100%;
+    background-position: center;
+    background-size: cover;
+}

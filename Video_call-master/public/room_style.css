@@ -1,0 +1,158 @@
+
+body {/*removing the spacing at the top */
+  margin: 0;
+  padding: 0;
+  background-image: url(black.png);
+}
+/*reduce the size of video on the screen */
+#the_video_grid {
+    display: flex;
+    justify-content: center;
+    flex-grow: 1;
+    align-items: center;
+    padding: 1rem;
+    background-color: var(--main-dark);
+    
+  
+}
+
+video {
+    height: 300px;
+    width: 400px;
+    object-fit: cover;
+    border-radius: 1rem;
+    margin: 0.5rem;
+   /* transform: rotateY(180deg);
+   -webkit-transform: scaleX(-1);
+    transform: scaleX(-1);*/
+}
+
+.main {
+    height: 100vh;
+    display: flex;
+    background-image: url(black.png);
+}
+
+.main__left {
+    flex: 0.8;
+    display: flex;
+    flex-direction: column;
+}
+
+.main__right {
+    flex: 0.2
+}
+.main__videos {
+    flex-grow: 1;
+    /*background-color: rgb(20, 20, 20);*/
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1 rem;
+  
+}
+
+.main__controls {
+   /* background-color: #1c1d1f;*/
+   border-top: 1px solid #3D3D42;
+    
+    
+}
+
+.main__right {
+    background-color: #141314;
+    border-left: 1px solid #3D3D42;
+}
+
+
+.main__controls {
+    color: #D2D2D2;
+    display: flex;
+    justify-content: space-between;
+    padding: 5px;
+}
+
+.main__controls__block {
+    display: flex;
+}
+
+.main__controls__button {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 8px 10px;
+    min-width: 80px;
+    cursor: pointer;
+}
+
+.main__controls__button:hover {
+    background-color: #343434;
+    border-radius: 5px;
+}
+
+.main__controls__button i {
+    font-size: 24px;
+}
+
+.main__right {
+    display: flex;
+    flex-direction: column;
+    margin-left: auto;
+}
+
+.main__header {
+    padding-top: 5px;
+    color: #F5F5F5;
+    text-align: center;
+}
+
+.main__chat_rectangle {
+    flex-grow: 1;
+    overflow-y: auto;
+
+}
+
+.messages{
+    color: white;
+    list-style: none;
+}
+
+
+.main__message_container {
+    padding: 22px 12px;
+    display: flex;
+    align-items: center;
+   justify-content: center;
+   
+}
+
+.main__message_container input {
+    flex-grow: 1;
+    background-color: transparent;
+    border: none;
+    color: #F5F5F5;
+}
+
+
+.btn {
+    color: #EB534B;
+}
+
+.unmute, .stop {
+    color: #CC3B33;
+}
+
+#body{
+    color:red;
+    background:grey;
+}
+#exit{
+
+    color: brown;
+}
+#cut{
+    color: brown;
+    font-style: normal;
+    
+}
